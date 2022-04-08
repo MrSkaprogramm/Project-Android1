@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumb_width">30dp</dimen>
+    <dimen name="thumb_height">30dp</dimen>
+    <dimen name="round_corner_bubles">16dp</dimen>
+    <dimen name="vertical_paddings_bubles">8dp</dimen>
+    <dimen name="horizontal_paddings_bubles">12dp</dimen>
+    <dimen name="margin_right_of_time_chat">16dp</dimen>
+    <dimen name="margin_left_of_time_chat">16dp</dimen>
+</resources>

@@ -1,0 +1,92 @@
+<resources>
+    <!-- general strings -->
+    <string name="got_it">Got it</string>
+
+    <!--  Name application  -->
+    <string name="app_name">Mitra</string>
+
+    <!--  SplashFragment  -->
+    <string name="splash_text_1">Just be yourself</string>
+    <string name="privacy_text">Continue, you agree to the «Mitra User Agreement»</string>
+    <string name="splash_text_2">Chat anonymously and meet new friends.\nChat with a single tap!</string>
+    <string name="continue_text">Continue</string>
+    <string name="server_is_not_available">Server is not available</string>
+
+    <!--  FilterFragment  -->
+    <string name="filter_title">Filter</string>
+    <string name="available_clients">Users online right now: %d</string>
+    <string name="age_lower_18">To start chat your age need to be 18+</string>
+    <string name="gender_text">My gender</string>
+    <string name="for_what_text">Looking for</string>
+    <string name="my_age_text">My age (18+)</string>
+    <string name="age_text">Interlocutor age</string>
+    <string name="text_nickname">Nickname</string>
+    <string name="text_start_chat">Start Chat</string>
+    <string name="male_gender">Male</string>
+    <string name="female_gender">Female</string>
+    <string name="boys_gender">Boys</string>
+    <string name="girl_gender">Girls</string>
+    <string name="both_gender">Both</string>
+    <string name="years_18">18</string>
+    <string name="years_22">22</string>
+    <string name="years_26">26</string>
+    <string name="years_30">30</string>
+    <string name="years_40plus">40+</string>
+
+    <!--  AvatarFragment  -->
+    <string name="avatar_title">Change avatar</string>
+    <string name="girls_text">Girls</string>
+    <string name="boys_text">Boys</string>
+    <string name="cute_character_text">Cute characters</string>
+
+    <!--  SettingsFragment  -->
+    <string name="settings_title">Settings</string>
+
+    <!--  PrivacyFragment  -->
+    <string name="privacy_title">User agreement</string>
+
+    <!--  PostingRulesFragment  -->
+    <string name="posting_rules_title">Posting rules</string>
+
+
+    <string name="no_result">Oops, no results found</string>
+    <string name="search_title">Waiting for the interlocutor</string>
+    <string name="cancel_search">Cancel search</string>
+    <string name="title_left_chat">The interlocutor left you</string>
+    <string name="leave_dialog_chat">Leave the interlocutor</string>
+    <string name="advice_exit_chat">Find new friend or change\nsearch parameters.</string>
+    <string name="start_new_chat"> Start new chat</string>
+    <string name="open_filter">Change search options</string>
+    <string name="waiting">Please, wait…</string>
+    <string name="report_user">Report user</string>
+    <string name="question_report">Is this person bothering you? Tell us what they did.</string>
+    <string name="inappropriate_messages">Inappropriate messages</string>
+    <string name="spam">Feels like spam</string>
+    <string name="other_report">Other</string>
+    <string name="additional_report">Additional info (optional)</string>
+    <string name="user_reported">User reported</string>
+    <string name="ok">Ok, got it</string>
+    <string name="closing_chet">Notifications</string>
+    <string name="vibration">Vibration</string>
+    <string name="sound">Sound</string>
+    <string name="information">information and support</string>
+    <string name="email">Email us</string>
+    <string name="market">Rate us on the Play Store</string>
+    <string name="agreement">User agreement</string>
+    <string name="rules">Posting rules</string>
+    <string name="fill_age">Please, fill age</string>
+    <string name="send">Send</string>
+
+    <string name="write_something">Write something…</string>
+
+    <string name="you_reported">You’ve been\nreported</string>
+    <string name="reported_description">Be careful, repeat offences could lead your account being banned.</string>
+    <string name="reported_understanding">@string/got_it</string>
+
+    <string name="thanks_user_reported">Thank you for helping to keep our community safe.</string>
+
+    <string name="you_banned">Your account\nwas blocked</string>
+    <string name="banned_description">You’ve been reported by users too many times. Unfortunately, we are forced to block your account for 10 days.</string>
+    <string name="banned_leave_mitra">@string/got_it</string>
+
+</resources>

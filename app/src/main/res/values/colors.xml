@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="green">#41B619</color>
+  <color name="colorPrimary">#FFF</color>
+  <color name="colorPrimaryDark">#FFF</color>
+  <color name="colorAccent">@color/green</color>
+  <color name="notification">#48D83A</color>
+  <color name="secondaryColor">#1C93B0</color>
+  <color name="background">#F2F4F6</color>
+  <color name="blackTransparent8Percent">#08000000</color>
+  <color name="primaryTextColor">#1A2026</color>
+  <color name="blackDescription">#2F3538</color>
+  <color name="grey">#B9B9B9</color>
+  <color name="delimiter">#EDEDED</color>
+  <color name="available_grey">#737373</color>
+</resources>
