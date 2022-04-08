@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "47562953465",
+    "firebase_url": "https://mitra-9dd72.firebaseio.com",
+    "project_id": "mitra-9dd72",
+    "storage_bucket": "mitra-9dd72.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47562953465:android:b3f35ec8c4ba33c644c828",
+        "android_client_info": {
+          "package_name": "com.mitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47562953465-ftj6kh10g6qr7sge9j715semc0810hb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Yu_6iRT8mImGhyPp-ZFR58v-fdYoz7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47562953465-ftj6kh10g6qr7sge9j715semc0810hb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47562953465:android:08713681504074ab44c828",
+        "android_client_info": {
+          "package_name": "com.mitra.chat.anonymous.ws"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47562953465-ftj6kh10g6qr7sge9j715semc0810hb3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_Yu_6iRT8mImGhyPp-ZFR58v-fdYoz7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47562953465-ftj6kh10g6qr7sge9j715semc0810hb3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
