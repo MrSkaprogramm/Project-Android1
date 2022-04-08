@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="296dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background_circle" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/dialog_background"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/TitleDialog24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="41dp"
+            android:text="@string/report_user" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            style="@style/DescriptionDialog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="9dp"
+            android:layout_marginRight="24dp"
+            android:gravity="center_horizontal"
+            android:text="@string/question_report" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/delimiter" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/inapropriate"
+            style="@style/DescriptionDialog14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="14dp"
+            android:drawableStart="@drawable/ic_chats"
+            android:drawableLeft="@drawable/ic_chats"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:text="@string/inappropriate_messages" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/delimiter" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/spam"
+            style="@style/DescriptionDialog14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="14dp"
+            android:drawableStart="@drawable/ic_bot"
+            android:drawableLeft="@drawable/ic_bot"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:text="@string/spam" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="14dp"
+            android:background="@color/delimiter" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/other"
+            style="@style/DescriptionDialog14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="14dp"
+            android:drawableStart="@drawable/ic_warning"
+            android:drawableLeft="@drawable/ic_warning"
+            android:drawablePadding="16dp"
+            android:gravity="center"
+            android:text="@string/other_report" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/delimiter" />
+
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="50dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_report" />
+</FrameLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/selector_switch_state"
+    android:layout_weight="1">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/text_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="8dp"
+        app:fontFamily="@font/rubik_medium"
+        android:textSize="16sp"
+        android:textColor="@color/primaryTextColor"
+        android:gravity="center"
+        tools:text="Text" />
+</FrameLayout>
