@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/vertical_paddings_bubles"
+                android:left="@dimen/horizontal_paddings_bubles"
+                android:right="@dimen/horizontal_paddings_bubles"
+                android:top="@dimen/vertical_paddings_bubles" />
+            <corners
+                android:bottomRightRadius="0dp"
+                android:radius="@dimen/round_corner_bubles" />
+            <solid android:color="@color/secondaryColor" />
+
+        </shape>
+    </item>
+</layer-list>

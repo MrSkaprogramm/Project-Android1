@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+
+            <padding
+                android:bottom="1dp"
+                android:left="1dp"
+                android:right="1dp"
+                android:top="1dp" />
+            <corners
+                android:radius="@dimen/round_corner_bubles"
+                android:bottomLeftRadius="0dp" />
+            <solid android:color="#08000000" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding
+                android:bottom="@dimen/vertical_paddings_bubles"
+                android:left="@dimen/horizontal_paddings_bubles"
+                android:right="@dimen/horizontal_paddings_bubles"
+                android:top="@dimen/vertical_paddings_bubles" />
+            <corners
+                android:bottomLeftRadius="0dp"
+                android:radius="@dimen/round_corner_bubles" />
+            <solid android:color="@android:color/white" />
+
+        </shape>
+    </item>
+</layer-list>
