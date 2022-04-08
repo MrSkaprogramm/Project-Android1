@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.mitra.ui.screens.splash.SplashFragment"
+        android:label="fragment_splash2"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_privacyFragment"
+            app:destination="@id/privacyFragment" />
+        <action
+            android:id="@+id/action_splashFragment_to_banned_current_user"
+            app:destination="@id/banned_current_user" />
+        <action
+            android:id="@+id/action_splashFragment_to_reported_current_user"
+            app:destination="@id/reported_current_user" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.mitra.ui.screens.filter.FilterFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_avatarFragment"
+            app:destination="@id/avatarFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_dialog_search"
+            app:destination="@id/dialog_search" />
+        <action
+            android:id="@+id/action_loginFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_chatFragment"
+            app:destination="@id/chatFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_no_result"
+            app:destination="@id/no_result" />
+    </fragment>
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="com.mitra.ui.screens.chat.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat">
+        <argument
+            android:name="roomId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_chatFragment_to_exitChatDialog"
+            app:destination="@id/exitChatDialog" />
+        <action
+            android:id="@+id/action_chatFragment_to_autoLeaveChatDialog"
+            app:destination="@id/autoLeaveChatDialog" />
+        <action
+            android:id="@+id/action_chatFragment_to_report"
+            app:destination="@id/report" />
+        <action
+            android:id="@+id/action_chatFragment_to_report_other"
+            app:destination="@id/report_other" />
+        <action
+            android:id="@+id/action_chatFragment_to_reported_companion"
+            app:destination="@id/reported_companion" />
+        <action
+            android:id="@+id/action_chatFragment_to_banned_current_user"
+            app:destination="@id/banned_current_user" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.mitra.ui.screens.settings.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings">
+
+        <action
+            android:id="@+id/action_settingsFragment_to_privacyFragment"
+            app:destination="@id/privacyFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_postingRulesFragment"
+            app:destination="@id/postingRulesFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/dialog_search"
+        android:name="com.mitra.ui.screens.search_dialog.SearchCompanionDialogFragment"
+        tools:layout="@layout/dialog_search_companion">
+
+        <action
+            android:id="@+id/action_dialog_search_to_chatFragment"
+            app:destination="@id/chatFragment" />
+    </dialog>
+    <dialog
+        android:id="@+id/no_result"
+        android:name="com.mitra.ui.screens.no_result_dialog.NoResultDialogFragment"
+        tools:layout="@layout/dialog_no_result">
+    </dialog>
+    <fragment
+        android:id="@+id/privacyFragment"
+        android:name="com.mitra.ui.screens.privacy.PrivacyFragment"
+        android:label="fragment_privacy"
+        tools:layout="@layout/fragment_privacy" />
+    <fragment
+        android:id="@+id/postingRulesFragment"
+        android:name="com.mitra.ui.screens.posting_rules.PostingRulesFragment"
+        android:label="posting_rules_fragment"
+        tools:layout="@layout/fragment_privacy"/>
+    <fragment
+        android:id="@+id/avatarFragment"
+        android:name="com.mitra.ui.screens.avatar.AvatarFragment"
+        android:label="fragment_avatar"
+        tools:layout="@layout/fragment_avatar" />
+
+    <dialog
+        android:id="@+id/exitChatDialog"
+        android:name="com.mitra.ui.screens.exit_chat_dialog_screen.ExitChatDialogFragment"
+        tools:layout="@layout/dialog_exit_chat">
+
+    </dialog>
+
+    <dialog
+        android:id="@+id/autoLeaveChatDialog"
+        android:name="com.mitra.ui.screens.auto_leave_chat_dialog.AutoLeaveChatDialog"
+        tools:layout="@layout/dialog_auto_leave_chat">
+
+    </dialog>
+
+    <dialog
+        android:id="@+id/report"
+        android:name="com.mitra.ui.screens.report.ReportFragment"
+        tools:layout="@layout/dialog_report_companion">
+
+    </dialog>
+
+    <dialog
+        android:id="@+id/report_other"
+        android:name="com.mitra.ui.screens.report_other.ReportOtherFragment"
+        tools:layout="@layout/dialog_report_other_companion">
+
+    </dialog>
+
+    <dialog
+        android:id="@+id/reported_companion"
+        android:name="com.mitra.ui.screens.reported.ReportedFragment"
+        tools:layout="@layout/dialog_reported_companion">
+
+    </dialog>
+
+    <dialog
+        android:id="@+id/reported_current_user"
+        android:name="com.mitra.ui.screens.reported_current_user.ReportedCurrentUserDialog"
+        tools:layout="@layout/dialog_reported_current_user">
+
+    </dialog>
+
+    <dialog
+        android:id="@+id/banned_current_user"
+        android:name="com.mitra.ui.screens.banned_current_user.BannedCurrentUserDialog"
+        tools:layout="@layout/dialog_banned_current_user">
+
+    </dialog>
+</navigation>
